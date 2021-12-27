@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
  
 fig, ax = plt.subplots()
-line, = plt.plot([], [], '-', color='red', label='line')
+line, = plt.plot(x, y, 'o', color='g', label='line')
 
-edge = 200
-v0=55
+edge = 130
+v0=27
 g=9.8
  
 plt.axis('equal')
