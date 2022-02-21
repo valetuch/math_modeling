@@ -3,16 +3,16 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
  
 fig, ax = plt.subplots()
-line, = plt.plot(x, y, 'o', color='g', label='line')
+line, = plt.plot([], [], 'o', color='g', label='line')
 
-edge = 130
+edge = 100
 v0=27
 g=9.8
  
 plt.axis('equal')
 
-ax.set_xlim(-1, edge)
-ax.set_ylim(-1, edge)
+ax.set_xlim(0, edge)
+ax.set_ylim(0, edge)
  
 x, y = [], []
 
